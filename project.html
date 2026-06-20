@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST Calculator</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>GST Calculator</h1>
+
+    <label>Original Amount (₹)</label>
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <label>GST Rate (%)</label>
+    <select id="gst">
+        <option value="5">5%</option>
+        <option value="12">12%</option>
+        <option value="18">18%</option>
+        <option value="28">28%</option>
+    </select>
+
+    <button onclick="calculateGST()">Calculate</button>
+
+    <div id="result"></div>
+
+    <hr>
+
+    <p><strong>Sneha Thakur</strong></p>
+    <p>Email: snehathakur0809@gmail.com</p>
+
+    <a href="https://digitalheroesco.com" target="_blank">
+        <button>Built for Digital Heroes</button>
+    </a>
+</div>
+
+<script src="project.js"></script>
+
+</body>
+</html>
